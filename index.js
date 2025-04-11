@@ -71,3 +71,6 @@ inputEl.addEventListener("keydown", (e) => {
         fetchAPI(e.target.value.trim());
     }
 });
+
+// setup date
+const date = (document.getElementById("date").innerHTML = new Date().getFullYear());
